@@ -23,7 +23,8 @@
 				<td width="100%">
 				</td>
 				<td align="right">
-					<a target="_blank" href="https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/weather-company-data-demo.git"><img style="margin-top:5px;" alt="Bluemix button" src="https://bluemix.net/deploy/button.png"></a>
+					<!-- <a target="_blank" href="https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/weather-company-data-demo.git"><img style="margin-top:5px;" alt="Bluemix button" src="https://bluemix.net/deploy/button.png"></a> -->
+					<a target="_blank" >ICO Weaether</a>
 				</td>
 			</tr>
 		</table>
@@ -37,16 +38,10 @@
 			<tr>
 				<td>
 					<select id="weather_presets" name="weather_presets" style="width:200px; height:40px; margin:0px; background-color:#B7D2DD; font-size:14pt; font-weight:bold;" onchange="setLocation(this.options[this.selectedIndex].value)">
-						<option value="42.34,-75.18">New York</option> 
-						<option value="45.43,-75.68">Ottawa</option>
-						<option value="51.51,0.13">London</option>
-						<option value="48.85,2.35">Paris</option>
-						<option value="41.90,12.50">Rome</option>
-						<option value="55.75,37.61">Moscow</option>
-						<option value="18.97,72.83">Mumbai</option>
-						<option value="27.70,85.33">Kathmandu</option>
-						<option value="39.91,116.38">Beijing</option>
-						<option value="35.68,139.68">Tokyo</option>
+						<option value="43.33,-3.00">Getxo</option> 
+						<option value="-12.97,-38.50">Salvador Bahia</option> 
+						<option value="40.41,-3.70">Madrid</option>
+						<option value="43.56,-6.14">Cudillero</option>
 					</select>
 				</td>
 				<td>
@@ -198,12 +193,12 @@
 
 <!-- hourly display -->
 <div style="background-color:#6DA9C3;">
-	<div id="hourly_throbber" style="width:50px; height:80px; margin:0 auto; display:none;">
+	<div id="hourly_throbber" style="width:50px; height:160px; margin:0 auto; display:none;">
 		<img width="50px" height="50px" vspace="15px" src="images/throbber_3.gif" style=""/>
 	</div>
-	<div id="hourly_error" style="width:500px; height:80px; margin:0 auto; font-size:14pt; font-weight:bold;  text-align:center; color:#800000; display:none; padding-top:20px;">
+	<div id="hourly_error" style="width:500px; height:160px; margin:0 auto; font-size:14pt; font-weight:bold;  text-align:center; color:#800000; display:none; padding-top:20px;">
 	</div>
-	<div id="weather_hourly" style="width:800px; height:80px; margin:0 auto; padding:5px; display:none;">
+	<div id="weather_hourly" style="width:800px; height:160px; margin:0 auto; padding:5px; display:none;">
 	</div>
 	<div id="weather_hourly_json" style="width:800px; margin:0 auto;">
 	</div>
