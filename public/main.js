@@ -304,7 +304,7 @@ function renderHour(forecast, index) {
 	var sunset = 20;
 	var color = hourColor(hour, sunrise, sunset);
 	var s = 
-		'<table id="hourCell_' + index + '" cellspacing="0px" width="28px" height="160px" style="border:1px solid transparent; margin:0 auto; background-color:' + color + '; color:white; user-select:none; -moz-user-select:-moz-none; cursor:pointer"'
+		'<table id="hourCell_' + index + '" cellspacing="0px" width="28px" height="190px" style="border:1px solid transparent; margin:0 auto; background-color:' + color + '; color:white; user-select:none; -moz-user-select:-moz-none; cursor:pointer"'
 	+		' onmouseover="overHour(this);" onmouseout="outHour(this);"; onclick="clickHour(' + index + ');">'
 	+		'<tr>'
 	+		 	'<td valign="top" align="center">'
