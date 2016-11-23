@@ -637,7 +637,6 @@ function setLocation(geocode, units, language) {
 
  function changeDivBackground(code)
 {
-	alert(code);
      document.getElementById("thelocation").style.background = "url('images/"+ code + ".jpg')";
 }
 
