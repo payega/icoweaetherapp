@@ -37,7 +37,7 @@
 		<table style="width:800px; height:70px; margin:0 auto;">
 			<tr>
 				<td>
-					<select id="weather_presets" name="weather_presets" style="width:200px; height:40px; margin:0px; background-color:#B7D2DD; font-size:14pt; font-weight:bold;" onchange="setLocation(this.options[this.selectedIndex].value)">
+					<select id="weather_presets" name="weather_presets" style="width:200px; height:40px; margin:0px; background-color:#B7D2DD; font-size:14pt; font-weight:bold;" onchange="setLocation(this.options[this.selectedIndex].value);changeDivBackground(this.options[this.selectedIndex])">
 						<option value="43.33,-3.00">Getxo</option> 
 						<option value="-12.97,-38.50">Salvador Bahia</option> 
 						<option value="40.41,-3.70">Madrid</option>
@@ -119,7 +119,8 @@
 </div>
 
 <!-- Today display -->
-<div style="background-color:#2A688D; height:200px;">
+<!-- div style="background-color:#2A688D; height:200px;"> -->
+<div id=thelocation height: 200px; width: 800px; border: 1px solid black;"> </div>
 	<div id="daily_throbber" style="width:120px; height:200px; margin:0 auto; display:none;">
 		<img width="120px" height="120px" vspace="40px" src="images/throbber_3.gif"/>
 	</div>

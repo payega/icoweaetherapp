@@ -635,6 +635,12 @@ function setLocation(geocode, units, language) {
 	});
 }
 
+ function changeDivBackground(code)
+{
+	alert(code);
+     document.getElementById("thelocation").style.background = "url('images/"+ code + ".jpg')";
+}
+
 function init() {
 	getLocation(function(err, geocode) {
 		if (err) {
