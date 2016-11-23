@@ -328,7 +328,7 @@ function renderHour(forecast, index) {
 	+	 	'</tr>'
 	+		'<tr>'
 	+			'<td valign="top" align="center">'
-	+				'<span style="font-size:9pt;">' + forecast.wdir_cardinal + '</span>'
+	+				'<span style="font-size:8pt;">' + forecast.wdir_cardinal + '</span>'
 	+			'</td>'
 	+	 	'</tr>'	
 		+		'<tr>'
